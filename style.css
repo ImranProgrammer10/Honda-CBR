@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+
+/* banner design part starts here */
+
+#banner-section{
+     
+    width: 100%;
+    margin-bottom: 80px;
+
+    background: #264653;
+}
+.container{
+    margin-bottom: 80px;
+}
+ 
+ 
+ 
+.link-button {
+    
+    text-decoration: none;
+    background:#E76F51;;
+    border: 1px solid #E02C6D;
+    width: 168px;
+    height: 44px;
+    padding: 10px  ;
+    color: white;
+    border-radius: 5px;
+}
+ 
+.title{
+    font-size: 10px;
+    color: #E0E0E0;
+    
+    
+}
+.collection{
+    color: #E76F51;
+}
+.container-box{
+    margin-left: 10%;
+}
+ 
+.bike-collection img{
+    width: 160px;
+    height: 170px;
+   
+}
+
+ 
+/* modal area design starts here */
+.modal-text{
+    color: #E76F51;
+   
+}
+.banner-section{
+    background: #264653;
+}
+.button-modal{
+   background-color: #E76F51;
+   border: 0;
+   width: 168px;
+  height: 44px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}
+
+/* modal area design ends here */
+#bikes img{
+    filter: grayscale(100%);
+
+}
+#header-bike img{
+    width: 400px;
+    height: 300px;
+}
+span{
+    color: #E76F51;
+}
+
+.featured-heading{
+    margin-bottom: 50px;
+}
+ .card-image img{
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+ }
+  
+ .stars  {
+     color: #E77C40;
+     text-align: center;
+     
+ }
+ .name{
+     font-size: 12px;
+     color: blue;
+
+ }
+ /* Information part design starts here */
+
+ .services{
+    background: #f1f1f1;
+    text-align: center;
+  }
+  .services h1{
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 4px solid #3498db;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+  }
+  .cen{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+  }
+  .service{
+    display: inline-block;
+    width: calc(100% / 3);
+    margin: 0 -2px;
+    padding: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  .service:hover{
+    background: #ddd;
+  }
+  .service i{
+    color: #3498db;
+    font-size: 34px;
+    margin-bottom: 30px;
+  }
+  .service h2{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0;
+  }
+  .service p{
+    color: gray;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  @media screen and (max-width: 800px) {
+    .service{
+      width: 50%;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .service{
+      width: 100%;
+    }
+  }
+
+
+  /* Information part design ends here */
+
+
+
+
+ /* faq part design starts here */
+
+ .featured img{
+    
+     height: 300px;
+ }
+ .featured{
+     width: 100%;
+ }
+ /* faq design part design ends here */
+
+
